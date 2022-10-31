@@ -1,13 +1,13 @@
 function bitwiseAND(n1, n2) {
-  return (n1 & n2).toString();
+  return parseInt((n1 & n2).toString());
 }
 
 function bitwiseOR(n1, n2) {
-  return (n1 | n2).toString();
+  return parseInt((n1 | n2).toString());
 }
 
 function bitwiseXOR(n1, n2) {
-  return (n1 ^ n2).toString();
+  return parseInt((n1 ^ n2).toString());
 }
 
 console.log(bitwiseAND(7, 12));
